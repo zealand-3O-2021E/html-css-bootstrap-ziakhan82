@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="mystyle.css">
+    <script>
+        function myFunction() {
+            
+             if (document.getElementById("2").getAttribute("class") =="city")
+              {
+                document.getElementById("2").className = "city1";
+              }
+              else
+              {
+                document.getElementById("2").className = "city";
+              }            
+        }
+    </script>
+    
+<title>Page Title</title>
+</head>
+<body>
+  <h1>Capitals</h1>
+
+  <h2 id="1" class="city">London</h2>
+  <p>London is the capital of England.</p>
+  
+  <h2 id="2" class="city1">Paris</h2>
+  <p>Paris is the capital of France.</p>
+  
+  <h2 id="3">Tokyo</h2>
+  <p>Tokyo is the capital of Japan.</p>
+  
+  <h1 class="city">--Capitals--</h1>
+
+  <button type="button" onclick="myFunction()">Change colour</button>
+
+</body>
+</html> 
+
+ 
